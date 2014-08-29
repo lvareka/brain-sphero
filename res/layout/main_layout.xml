@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+    <TextView
+        android:id="@+id/tv_command"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/command" />  
+         
+    
+      <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/meditation" />
+  
+  <ProgressBar
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/pb_meditation"
+         style="@android:style/Widget.ProgressBar.Horizontal"
+         android:layout_marginRight="5dp" />
+  
+  <SeekBar
+        android:id="@+id/sbMeditation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+  
+  
+ 
+  <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/attention" />
+  
+    
+  <ProgressBar
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/pb_attention"
+         style="@android:style/Widget.ProgressBar.Horizontal"
+         android:layout_marginRight="5dp" />
+  
+  <SeekBar
+        android:id="@+id/sbAttention"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+  
+    
+   <Button
+     android:layout_height="wrap_content"
+     android:layout_width="match_parent"
+     android:id="@+id/b_mindwave"
+     android:text="@string/connectMW"
+     android:onClick="mindWaveConnect" />
+   
+
+    <Button
+     android:layout_height="wrap_content"
+     android:layout_width="match_parent"
+     android:id="@+id/b_sphero"
+     android:text="@string/connectSphero"
+     android:onClick="spheroConnect" />
+    
+     
+   <orbotix.view.connection.SpheroConnectionView
+        android:id="@+id/sphero_connection_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFF" />
+
+   
+  <!--  <orbotix.robot.widgets.calibration.CalibrationView android:id="@+id/CalibrationView"
+                                               android:layout_width="fill_parent"
+                                               android:layout_height="fill_parent"/>
+  
+   -->
+ 
+  
+
+</LinearLayout>

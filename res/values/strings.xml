@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">BrainSphero</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string android:id="@+id/attention" name="attention">Attention</string>
+    <string android:id="@+id/meditation" name="meditation">Meditation</string>
+    <string android:id="@+id/command" name="command">No command</string>
+    <string android:id="@+id/connectMW" name="connectMW">Mindwave Connect</string>
+     <string android:id="@+id/connectSphero" name="connectSphero">Sphero Connect</string>
+    
+    
+
+</resources>
